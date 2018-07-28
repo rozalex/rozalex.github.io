@@ -1,0 +1,5 @@
+.rtl.App {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Heebo', sans-serif;
+}

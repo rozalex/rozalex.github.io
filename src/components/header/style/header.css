@@ -1,0 +1,19 @@
+header {
+  background-color: #34495e;
+  color: white;
+  height: 90px;
+  display: grid;
+  grid-template-columns: 200px 1fr auto;
+  grid-column-gap: 20px; }
+  header span {
+    padding-right: 15px;
+    padding-left: 15px; }
+
+@media all and (max-width: 30em) {
+  header {
+    font-size: 10px;
+    grid-template-columns: 150px 1fr auto;
+    grid-column-gap: 10px;
+    height: 60px; }
+    header .title {
+      margin-top: 5px; } }

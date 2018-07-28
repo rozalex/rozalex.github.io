@@ -1,0 +1,35 @@
+main {    
+  padding: 20px;
+}
+
+.App {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+.switch {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+h2 {
+  font-size: 1.4em;
+  padding: 10px;
+}
+
+section {
+  border-top: 3px solid #3498db;
+  text-align: center;
+  border-radius: 3px;
+  background-color: white;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  overflow: hidden;
+  min-height: 150px;
+}
+
+@media (min-width: 620px) {
+  main {
+    column-count: 2;
+  }
+}
