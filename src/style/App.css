@@ -27,9 +27,53 @@ section {
   overflow: hidden;
   min-height: 150px;
 }
+section .section-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+section .slide-menu {
+  text-align: right;
+  padding: 5px 10px 0 10px;
+}
+.slide-menu SVG {
+  cursor: pointer;
+}
+
+.code-snippet-on {
+  position: absolute;
+  height: 170px;
+  width: calc(50% - 28px);
+  background: lightsteelblue;
+  transition: height 1s;
+}
+
+.code-snippet-on .code {
+  font-family: "Courier New" Courier monospace;
+  font-size: 20px;
+  transition: opacity 1s;
+  opacity: 1;
+  padding: 20px;
+}
+.code-snippet-off {
+  visibility: none;
+  height: 0px;
+}
+
+.code-snippet-off .code {
+  opacity: 0;
+}
 
 @media (min-width: 620px) {
   main {
     column-count: 2;
+  }
+}
+@media (max-width: 620px) {
+  main {
+    column-count: 1;
+  }
+  .code-snippet-on {
+    width: calc(100% - 40px);
   }
 }

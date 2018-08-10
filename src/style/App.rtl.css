@@ -3,3 +3,6 @@
     text-align: right;
     font-family: 'Heebo', sans-serif;
 }
+.rtl.App .code-snippet-on {
+    direction: ltr;
+}
