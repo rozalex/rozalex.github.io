@@ -77,3 +77,9 @@ section .slide-menu {
     width: calc(100% - 40px);
   }
 }
+
+@media all and (max-width:30em){
+  .code-snippet-on {
+    height: 182px;
+  }
+}
